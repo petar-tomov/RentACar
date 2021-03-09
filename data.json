@@ -1,0 +1,101 @@
+{
+  "Renault Megane": {
+    "brand": "Renault",
+    "model": "Megane",
+    "expense": 6,
+    "registry_num": "CB3932KB",
+    "cost_per_hour": 5,
+    "cost_per_day": 25,
+    "cost_per_week": 120
+  },
+   "Renault Captur": {
+    "brand": "Renault",
+    "model": "Captur",
+    "expense": 5,
+    "registry_num": "PB5079TT",
+    "cost_per_hour": 5,
+    "cost_per_day": 23,
+    "cost_per_week": 110
+  },
+  "Renault Talisman": {
+    "brand": "Renault",
+    "model": "Talisman",
+    "expense": 7,
+    "registry_num": "PB1807KC",
+    "cost_per_hour": 10,
+    "cost_per_day": 50,
+    "cost_per_week": 250
+  },
+  "Tesla Model X": {
+    "brand": "Tesla",
+    "model": "Model X",
+    "expense": 0,
+    "registry_num": "CB4078BM",
+    "cost_per_hour": 20,
+    "cost_per_day": 100,
+    "cost_per_week": 500
+  },
+  "Porsche 911": {
+    "brand": "Porsche",
+    "model": "911",
+    "expense": 20,
+    "registry_num": "PB0168MX",
+    "cost_per_hour": 15,
+    "cost_per_day": 75,
+    "cost_per_week": 350
+  },
+   "Porsche Panamera": {
+    "brand": "Porsche",
+    "model": "Panamera",
+    "expense": 16,
+    "registry_num": "PA5460AB",
+    "cost_per_hour": 14,
+    "cost_per_day": 68,
+    "cost_per_week": 314
+  },
+  "Nissan GTR": {
+    "brand": "Nissan",
+    "model": "GTR",
+    "expense": 15,
+    "registry_num": "PB9189PC",
+    "cost_per_hour": 10,
+    "cost_per_day": 40,
+    "cost_per_week": 190
+  },
+  "Honda Civic": {
+    "brand": "Honda",
+    "model": "Civic",
+    "expense": 6,
+    "registry_num": "EB6633AH",
+    "cost_per_hour": 6,
+    "cost_per_day": 30,
+    "cost_per_week": 150
+  },
+  "BMW M Coupe": {
+    "brand": "BMW",
+    "model": "M Coupe",
+    "expense": 10,
+    "registry_num": "OB9586AM",
+    "cost_per_hour": 10,
+    "cost_per_day": 38,
+    "cost_per_week": 185
+  },
+   "Subaru Impreza": {
+    "brand": "Subaru",
+    "model": "Impreza",
+    "expense": 12,
+    "registry_num": "TX2503BX",
+    "cost_per_hour": 15,
+    "cost_per_day": 65,
+    "cost_per_week": 250
+  },
+  "Fiat Multipla": {
+    "brand": "Fiat",
+    "model": "Multipla",
+    "expense": 7,
+    "registry_num": "PB2124KT",
+    "cost_per_hour": 3,
+    "cost_per_day": 15,
+    "cost_per_week": 70
+  }
+}
