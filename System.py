@@ -4,8 +4,8 @@ from decimal import Decimal, ROUND_UP
 
 class System:
     cost = 0
-    toPop = False
-    removeCar = 0
+    toPop = False  # a boolean used to remove a car from the catalogue when it is rented
+    removeCar = 0  # a variable used to select the car object which has been selected for rent
     brand = "Moskvich"  # brand and model will be used for printing information
     model = "412"
     cars = open('data.json')
@@ -22,7 +22,7 @@ class System:
                 dataDict[c]['expense'], dataDict[c]['registry_num'],
                 dataDict[c]['cost_per_hour'], dataDict[c]['cost_per_day'],
                 dataDict[c]['cost_per_week'])
-        carData.update({c.registry_num: c})  # updating the dictionary with the registry number as a key
+        carData.update({c.registry_num: c})  # updating the dictionary with reg number as key and object car as a value
 
     def print_cars(self):
         print("Cars available for rent:")
