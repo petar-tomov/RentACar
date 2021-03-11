@@ -22,7 +22,7 @@ class System:
                 dataDict[c]['expense'], dataDict[c]['registry_num'],
                 dataDict[c]['cost_per_hour'], dataDict[c]['cost_per_day'],
                 dataDict[c]['cost_per_week'])
-        carData.update({c.registry_num: c})
+        carData.update({c.registry_num: c})  # updating the dictionary with the registry number as a key
 
     def print_cars(self):
         print("Cars available for rent:")

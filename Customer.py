@@ -7,7 +7,7 @@ class Customer:
         self.numRentedCars = 0
         self.cost = 0
 
-    def print_cars(self):
+    def check_catalogue(self):
         System.print_cars(System)
         print("")
 
