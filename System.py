@@ -32,6 +32,7 @@ class System:
                   f" ${c.cost_per_day} per day or ${c.cost_per_week} per week.\n")
 
     def rentacar_hours(self, customer, registry_num, hours):
+        self.toPop = False
         for c in self.carData.keys():
             if registry_num == c:
                 self.toPop = True
@@ -46,8 +47,11 @@ class System:
 
         if self.toPop:
             self.carData.pop(self.removeCar)
+        else:
+            print(f"This car is not available for rent at the moment, {customer.name}!\n")
 
     def rentacar_day(self, customer, registry_num):
+        self.toPop = False
         for c in self.carData.keys():
             if registry_num == c:
                 self.toPop = True
@@ -62,8 +66,11 @@ class System:
 
         if self.toPop:
             self.carData.pop(self.removeCar)
+        else:
+            print(f"This car is not available for rent at the moment, {customer.name}!\n")
 
     def rentacar_week(self, customer, registry_num):
+        self.toPop = False
         for c in self.carData.keys():
             if registry_num == c:
                 self.toPop = True
@@ -78,6 +85,8 @@ class System:
 
         if self.toPop:
             self.carData.pop(self.removeCar)
+        else:
+            print(f"This car is not available for rent at the moment, {customer.name}!\n")
 
     def checkout(self, customer):
         print(f"{customer.name} has rented {customer.numRentedCars} cars in total.")
@@ -88,3 +97,4 @@ class System:
         print(f"Money spent by {customer.name}: ${customer.cost}.")
         customer.numRentedCars = 0
         customer.cost = 0
+        print("-------------------------------")
